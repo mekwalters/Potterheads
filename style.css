@@ -98,7 +98,7 @@ header h1 {
   justify-content: space-evenly;
   height: auto;
   margin: 0 auto;
-  padding: 2 rem 0;
+  padding: 1 rem 0;
 }
 
 .item {
@@ -106,11 +106,13 @@ header h1 {
   padding: 2rem 0;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  width: 18rem;
 }
 
 .image-container img {
-  max-width: 16rem;
-  min-width: 15rem;
+ /* max-width: 16rem;
+  min-width: 15rem; */
+  width: 256px;
   margin:0 auto;
   height: auto;
   padding-top: 2rem;
@@ -118,7 +120,7 @@ header h1 {
 }
 
 .image-container p {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   font-size: 2.5rem;
   color: white;
 }
